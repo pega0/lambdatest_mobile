@@ -56,6 +56,7 @@ class MyTest:
         driver.find_element(by=By.XPATH, value="//div[contains(@class,'CamsButton')]/button[text()='Login']").click()
         time.sleep(5)
         driver.close()
+        driver.quit()
 
 
 if __name__ == '__main__':
